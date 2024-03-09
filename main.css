@@ -110,11 +110,12 @@ section img{
 }  
 
 .items img{
-    height: 280px;
+    height: 218px;
+    width: 250px;
 }
 
 .items{
-    max-width: 280px;
+    max-width: 250px;
     padding-bottom: 10px;
 }
 
@@ -140,7 +141,7 @@ section img{
 
 .menu-de-compra{ 
     display: grid;
-    grid-template-columns: repeat(3, 33.3%);
+    grid-template-columns: repeat(4, 25%);
 }
 
 @media screen and (max-width: 1023px){
@@ -165,6 +166,9 @@ section img{
     }
     .carrinho{
         margin-bottom: 16px;
+    }
+    .items img{
+        height: 280px;
     }
 }
 
@@ -200,6 +204,8 @@ section img{
     .menu li {
         padding-bottom: 10px;
     }
-
+    .items img{
+        height: 280px;
+    }
 }
 
